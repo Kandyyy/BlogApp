@@ -1,2 +1,2 @@
-# SocialApp
-Social media app using Flask Python
+# BlogApp
+Blog app using Flask Python
