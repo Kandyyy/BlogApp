@@ -18,5 +18,7 @@ login_manager.login_view = "users.login"
 
 from companyblog.core.views import core
 from companyblog.core.error_pages.handlers import error
+from companyblog.users.views import users
 app.register_blueprint(core)
 app.register_blueprint(error)
+app.register_blueprint(users)
